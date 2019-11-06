@@ -10,5 +10,10 @@ namespace TestWebApp.Tests
         {
             Assert.AreEqual(1, 1);
         }
+        [TestMethod]
+        public void TestMethodFail()
+        {
+            Assert.AreEqual(1, 0);
+        }
     }
 }
